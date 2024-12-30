@@ -7,61 +7,102 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
-    <header class="bg-white shadow">
-        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-            <h1 class="text-3xl font-bold text-gray-900">Second Brain Digest</h1>
+    <!-- Hero Section -->
+    <header class="relative bg-gray-800">
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover" src="https://via.placeholder.com/1920x800" alt="Placeholder Image">
+        </div>
+        <div class="relative max-w-7xl mx-auto py-32 px-4 sm:px-6 lg:px-8 text-white text-center">
+            <h1 class="text-5xl font-bold">Second Brain Digest</h1>
+            <p class="mt-6 text-xl">Daily, customizable insights from your note-taking vault</p>
         </div>
     </header>
 
-    <main>
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow rounded-lg">
-                <div class="px-4 py-5 sm:p-6">
-                    <h2 class="text-2xl font-bold mb-4">Insights From Your Obsidian Vault, Delivered Daily</h2>
-                    <p class="mb-6 text-gray-700">Get daily insights, connections, and timely memories from your Obsidian notes—powered by AI.</p>
+    <!-- Value Proposition Section -->
+    <section class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-8 text-center">Why Use Second Brain Digest?</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="text-center">
+                <div class="mb-4">
+                    <span class="inline-block bg-gray-200 p-4 rounded-full"><img src="images/calendar-icon-128px.png"></span>
+                </div>
+                <h3 class="font-semibold text-lg">Daily Insights</h3>
+                <p class="text-gray-600">Stay updated with a summary of your latest notes and ideas.</p>
+            </div>
+            <div class="text-center">
+                <div class="mb-4">
+                    <span class="inline-block bg-gray-200 p-4 rounded-full"><img src="images/compass-icon-128px.png"></span>
+                </div>
+                <h3 class="font-semibold text-lg">Discover Connections</h3>
+                <p class="text-gray-600">AI-powered links reveal relationships between your notes.</p>
+            </div>
+            <div class="text-center">
+                <div class="mb-4">
+                    <span class="inline-block bg-gray-200 p-4 rounded-full"><img src="images/clock-icon-128px.png"></span>
+                </div>
+                <h3 class="font-semibold text-lg">Timely Memories</h3>
+                <p class="text-gray-600">Rediscover past notes and revisit your previous thoughts.</p>
+            </div>
+            <div class="text-center">
+                <div class="mb-4">
+                    <span class="inline-block bg-gray-200 p-4 rounded-full"><img src="images/sliders-icon-128px.png"></span>
+                </div>
+                <h3 class="font-semibold text-lg">Customizable Digests</h3>
+                <p class="text-gray-600">Choose modules to tailor the digest to your workflow.</p>
+            </div>
+        </div>
+    </section>
 
-                    <h3 class="text-xl font-semibold mb-2">Features</h3>
-                    <ul class="list-disc list-inside mb-6 text-gray-700">
-                        <li>Daily Digest: Summarized insights from your notes.</li>
-                        <li>Complementary Info: AI-based semantic links.</li>
-                        <li>Connections: Highlight related notes and backlinks.</li>
-                        <li>TimeHop: Rediscover past notes and memories.</li>
-                    </ul>
-
-                    <div class="mb-6">
-                    <div class="bg-gray-100 border border-gray-300 rounded p-4">
-                        <h3 class="text-xl font-semibold mb-2">Module-based Email Customization</h3>
-                        <p class="mb-4 text-gray-700">Customize your daily email digest with modules that suit your workflow and priorities.</p>
-                        <ul class="list-disc list-inside text-gray-700">
-                            <li><strong>Daily Highlights:</strong> Key changes and additions to your notes.</li>
-                            <li><strong>Complementary Info:</strong> AI-suggested links and references.</li>
-                            <li><strong>Connections:</strong> Related notes and backlinks surfaced for you.</li>
-                            <li><strong>TimeHop:</strong> Notes and ideas from past years for reflection.</li>
-                        </ul>
-                    </div>
-                    </div>
-
-                    <div>
-                        <h3 class="text-xl font-semibold mb-4">Sign Up to Be the First to Try!</h3>
-                        <p class="mb-4 text-gray-700">We value your input. Let us know what features matter most to you.</p>
-                        <!-- Placeholder for Google Form -->
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSchehfCu9vsXfjDYnc95eqMFXVxzAOv3jEWdXyJEc5K6D3t7Q/viewform?embedded=true" width="640" height="854" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                        <!-- <div class="bg-gray-100 border border-gray-300 rounded p-4">
-                            <p class="text-gray-500">[Google Form Placeholder - Embed your form here]</p>
-                        </div> -->
-                    </div>
-
-                    <div class="mt-6">
-                        <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700">Learn More</a>
-                    </div>
+    <!-- How It Works Section -->
+    <section class="bg-gray-50 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-8 text-center">How It Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+                <div>
+                    <span class="inline-block text-4xl font-bold mb-4">1</span>
+                    <h3 class="font-semibold">Connect Your Vault</h3>
+                    <p class="text-gray-600">Securely sync your Obsidian vault with the platform.</p>
+                </div>
+                <div>
+                    <span class="inline-block text-4xl font-bold mb-4">2</span>
+                    <h3 class="font-semibold">Choose Your Modules</h3>
+                    <p class="text-gray-600">Select from AI-powered and standard modules to customize insights.</p>
+                </div>
+                <div>
+                    <span class="inline-block text-4xl font-bold mb-4">3</span>
+                    <h3 class="font-semibold">Design Your Digest</h3>
+                    <p class="text-gray-600">Tailor the layout and focus of your daily email digest.</p>
+                </div>
+                <div>
+                    <span class="inline-block text-4xl font-bold mb-4">4</span>
+                    <h3 class="font-semibold">Gain Valuable Insights</h3>
+                    <p class="text-gray-600">Receive actionable insights and connections every day.</p>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
 
-    <footer class="bg-gray-800">
-        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-gray-400">
-            <p>&copy; 2024 Second Brain Digest. All rights reserved.</p>
+    <!-- Email Mockup Section -->
+    <section class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-8 text-center">Preview Your Digest</h2>
+        <div class="bg-gray-100 border border-gray-300 rounded-lg py-12 text-center">
+            <p class="text-gray-500">[Design Coming Soon]</p>
+        </div>
+    </section>
+
+    <!-- Sign-Up Section -->
+    <section class="bg-gray-50 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Sign Up to Be the First to Try!</h2>
+            <p class="mb-6 text-gray-600">We value your input. Let us know what features matter most to you.</p>
+            <a href="https://forms.gle/vhaJV19mAsELjrwbA" class="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700">Sign Up</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
+            <p>Questions? <a href="mailto:dann@dannb.org" class="underline">Contact Us</a>. &copy; 2024 Second Brain Digest. All rights reserved. Designed by <a href="https://dannb.org" class="underline">Dann Berg</a>.</p>
         </div>
     </footer>
 </body>
